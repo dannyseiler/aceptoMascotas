@@ -90,13 +90,14 @@ a.btn {
   width: 8rem;
 }
 .card {
-  margin: 2em; 
+  margin: 2em;
 }
 .card.avisos {
   width: 400px;
 }
 
 .card-body {
+  background-color: #ececec50;
   position: relative;
   height: auto;
 }
@@ -112,6 +113,9 @@ a.btn {
   margin: -1px;
 }
 
+.links {
+  margin: 0 auto;
+}
 .fa-brands,
 .fa-solid,
 .fa-regular {
