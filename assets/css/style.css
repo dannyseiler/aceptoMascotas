@@ -1,156 +1,167 @@
 * {
-    font-family: 'Quicksand', sans-serif;
-  }
-  
-  body {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-  }
-  
-  .links {  
-    width: fit-content;
-  }
-  .links ul {
-    list-style: none;
-    display: flex;  
-    padding: 0;
-  }
-  
-  /******************* Navbar *******************/
-  
-  .logo-img-title {
-    width: 60px;
-    border-radius: 8px;
-    margin-right: 15px;
-  }
-  
-  .title-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 3rem 0;
-  }
-  
-  h1 {
-    font-weight: 600;
-    margin: 0;
-  }
-  h5 {
-    display: contents;
-  }
-  
-  .logo-section {
-    display: flex;
-    align-items: center;
-  }
-  .btn-contact {
-    display: flex;
-    align-items: center;
-  }
-  .btn-contact a {
-    color: #ffffff;
-    text-decoration: none;
-  }
-  
-  .btn-contact a:hover {
-    color: #ffffff;
-  }
-  
-  .fa-envelope {
-    margin: 5px;
-    font-size: 20px;
-  }
-  
-  /******************* Seccion Formulario *******************/
-  
-  
-  .container-form {
-    margin: 0;
-    margin-bottom: 3rem;
-  }
-  
-  .row > * {
-    text-align: left;
-    padding: 10px;
-  }
-  
-  .btn.btn-primary {
-    background-color: #3498db;
-    border-color: #3498db;
-  }
-  .btn.btn-primary:hover {
-    background-color: #2980b9;
-    border-color: #2980b9;
-  }
-  
-  a.btn {
-    width: 8rem;
-  }
-  
-  .card.avisos{
-    width: 400px;
-  }
-  
-  .card-body {
-    position: relative;
-    height: auto;
-  }
-  
-  
-  .formulario {
-    margin-top: 1.5rem;
-  }
-  
-  /******************* Seccion Avisos *******************/
-  
-  .social-media {
-      margin: -1px;
-  }
-  .fa-brands, .fa-solid, .fa-regular {
-    margin: 5px;
-    font-size: 25px;
-  }
-  
-  .fa-envelope {
-    color: #000000;
-  }
-  
-  .fa-facebook {
-    color: #1877f2;
-  }
-  
-  .fa-instagram {
-    color: #D43089;
-  }
-  .fa-whatsapp {
-    color: #25D366;
-  }
-  .fa-location-dot {
-    color: #e0450c;
-  }
-  
-  .avisos ul {
-    padding-left: 0;
-  }
-  .container-data li{
-    list-style: none;
-  }
-  
-  .container-data li a {
-    color: #000000;
-    text-decoration: none;
-  }
-  
-  /******************* Footer *******************/
-  .footer {  
-    font-weight: 500;
-    width: 100%;
-    height: 6em;
-    align-items: center;
-    text-align: center;
-    margin-top: auto;
-  }
+  font-family: 'Quicksand', sans-serif;
+}
+
+html, body {
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.links {
+  width: fit-content;
+}
+
+.links ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+/******************* Navbar *******************/
+
+.logo-img-title {
+  width: 60px;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+
+.title-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h5 {
+  display: contents;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.btn-contact {
+  display: flex;
+  align-items: center;
+}
+
+.btn-contact a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn-contact a:hover {
+  color: #ffffff;
+}
+
+.fa-envelope {
+  margin: 5px;
+  font-size: 20px;
+}
+
+/******************* Seccion Formulario *******************/
+.container {
+  width: 100%;
+}
+
+.row > * {
+  text-align: left;
+}
+
+.btn.btn-primary {
+  background-color: #3498db;
+  border-color: #3498db;
+}
+
+.btn.btn-primary:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+
+a.btn {
+  width: 8rem;
+}
+.card {
+  margin: 2em; 
+}
+.card.avisos {
+  width: 400px;
+}
+
+.card-body {
+  position: relative;
+  height: auto;
+}
+
+
+.formulario {
+  margin-top: 1.5rem;
+}
+
+/******************* Seccion Avisos *******************/
+
+.social-media {
+  margin: -1px;
+}
+
+.fa-brands,
+.fa-solid,
+.fa-regular {
+  margin: 5px;
+  font-size: 25px;
+}
+
+.fa-envelope {
+  color: #000000;
+}
+
+.fa-facebook {
+  color: #1877f2;
+}
+
+.fa-instagram {
+  color: #D43089;
+}
+
+.fa-whatsapp {
+  color: #25D366;
+}
+
+.fa-location-dot {
+  color: #e0450c;
+}
+
+.avisos ul {
+  padding-left: 0;
+}
+
+.container-data li {
+  list-style: none;
+}
+
+.container-data li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/******************* Footer *******************/
+.footer {
+  font-weight: 500;
+  margin: 2rem;
+  width: 100%;
+}
+
+.content-footer {
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: space-around;
+}
