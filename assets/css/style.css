@@ -169,3 +169,7 @@ align-items: center;
 text-align: center;
 justify-content: space-around;
 }
+
+span {
+  padding-right: 1rem;
+}
