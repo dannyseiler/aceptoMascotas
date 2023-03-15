@@ -2,7 +2,8 @@
   font-family: 'Quicksand', sans-serif;
 }
 
-html, body {
+html,
+body {
   box-sizing: border-box;
   height: 100vh;
   width: 100%;
@@ -72,7 +73,7 @@ h5 {
   width: 100%;
 }
 
-.row > * {
+.row>* {
   text-align: left;
 }
 
@@ -89,9 +90,11 @@ h5 {
 a.btn {
   width: 8rem;
 }
+
 .card {
   margin: 2em;
 }
+
 .card.avisos {
   width: 400px;
 }
@@ -116,11 +119,16 @@ a.btn {
 .links {
   margin: 0 auto;
 }
+
 .fa-brands,
 .fa-solid,
 .fa-regular {
   margin: 5px;
   font-size: 25px;
+}
+
+.fa-link {
+  color: #152981;
 }
 
 .fa-envelope {
@@ -133,6 +141,10 @@ a.btn {
 
 .fa-instagram {
   color: #D43089;
+}
+
+.fa-twitter {
+  color: #3498db;
 }
 
 .fa-whatsapp {
@@ -164,10 +176,10 @@ a.btn {
 }
 
 .content-footer {
-display: flex;
-align-items: center;
-text-align: center;
-justify-content: space-around;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
 }
 
 span {
