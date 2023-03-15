@@ -168,6 +168,13 @@ a.btn {
   text-decoration: none;
 }
 
+/******************* Modal *******************/
+
+.modal-body {
+  background-color: #ececec50;
+  text-align: justify;
+}
+
 /******************* Footer *******************/
 .footer {
   font-weight: 500;
