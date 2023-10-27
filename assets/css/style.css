@@ -67,7 +67,7 @@ h5 {
   font-size: 20px;
 }
 
-/******************* Seccion Formulario *******************/
+/******************* Seccion Contact Form *******************/
 .container {
   width: 100%;
 }
@@ -76,14 +76,19 @@ h5 {
   text-align: left;
 }
 
+.contact-form {
+  display: flex;
+}
+
 .btn.btn-primary {
-  background-color: #3498db;
-  border-color: #3498db;
+  background-color: #ffffff;
+  border-color: #34db50;
+  color: #000000;
 }
 
 .btn.btn-primary:hover {
-  background-color: #2980b9;
-  border-color: #2980b9;
+  background-color: #23921f;
+  border-color: #ffffff;
 }
 
 a.btn {
