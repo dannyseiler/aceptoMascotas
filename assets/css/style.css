@@ -76,19 +76,15 @@ h5 {
   text-align: left;
 }
 
-.contact-form {
-  display: flex;
-}
-
 .btn.btn-primary {
-  background-color: #ffffff;
-  border-color: #34db50;
-  color: #000000;
+  background-color: #23921f;
+  border-color: #ffffff;
 }
 
 .btn.btn-primary:hover {
-  background-color: #23921f;
-  border-color: #ffffff;
+  background-color: #ffffff;
+  border-color: #23921f;
+  color: #000000;
 }
 
 a.btn {
@@ -142,6 +138,10 @@ a.btn {
 
 .fa-whatsapp {
   color: #25D366;
+}
+
+.fa-telegram {
+  color: #0088cc;
 }
 
 .fa-location-dot {
